@@ -1,0 +1,14 @@
+{
+    "name": "imgui-test",
+    "version": "0.0.1",
+    "dependencies": [
+      "glfw3",
+      "glad",
+      "glm",
+      "freetype",
+      {
+        "name": "imgui",
+        "features": ["freetype", "glfw-binding", "opengl3-binding"]
+      }
+    ]
+  }
